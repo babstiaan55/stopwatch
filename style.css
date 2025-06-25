@@ -1,10 +1,12 @@
 body {
   background: #1a1a1a;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: top;
   height: 100vh;
   font-family: Arial, sans-serif;
+  margin-top: 5%;
+  margin-left: 5%;
 }
 
 .container {
