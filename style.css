@@ -1,0 +1,85 @@
+body {
+  background: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.timer-container {
+  width: 180px;
+  height: 180px;
+  border-radius: 20px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.light-mode {
+  background: #ccc;
+  color: #fff;
+}
+
+.screen {
+  background: #000;
+  border-radius: 12px;
+  padding: 10px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.info-bar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.badge {
+  background: #ccc;
+  color: #000;
+  border-radius: 6px;
+  padding: 2px 6px;
+}
+
+.timer-display {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.bottom-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+    .btn {
+      width: 60px;
+      height: 60px;
+      border: none;
+      cursor: pointer;
+      background: green;
+      border-radius: 50%;
+      color: white;
+      font-size: 24px;
+      transition: all 0.3s;
+    }
+    .stop {
+      background: red;
+      border-radius: 10px;
+    }
+
+
+.reset-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    }
