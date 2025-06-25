@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+  <title>stopwatch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="screen">
+      <div class="info-bar">
+        <div class="badge">Stopwatch</div>
+      </div>
+      <div class="timer-display"><h3 id="time">00:00</h3></div>
+      <div class="icon bell-icon small-icon"></div>
+    </div>
+    <div class="bottom-controls">
+    <button id="toggleBtn" class="btn">▶</button>
+      
+    <button id="resetBtn">
+        <div class="reset-btn" onclick="reset()">↺</div>
+      </button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
