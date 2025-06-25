@@ -7,7 +7,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.timer-container {
+.container {
   width: 180px;
   height: 180px;
   border-radius: 20px;
@@ -15,12 +15,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.light-mode {
   background: #ccc;
   color: #fff;
 }
+
 
 .screen {
   background: #000;
@@ -73,13 +71,17 @@ body {
       border-radius: 10px;
     }
 
-
 .reset-btn {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #222;
+    border-radius: 50px;
+    color: white;
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background: #222;
+    font-size: 30px;
     }
